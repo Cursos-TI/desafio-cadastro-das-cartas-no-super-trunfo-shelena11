@@ -15,7 +15,22 @@ int main(){
     float populacao= 1489.000;
     float area= 218.843;
     float pib= 33.000000;
-    int turistico= 30;
+    int numero ponto turistico= 30;
+
+    printf("Entre com o estado:\n");
+    scanf("%s", &populacao);
+    printf("entre com o codigo:\n");
+    scanf("%s",&codigo);
+    printf("entre com a cidade:\n");
+    scanf("%s", &codigo);
+    printf("entre com a populacao:\n");
+    scanf("%.2f", &populacao);
+    printf("entre com a area:\n");
+    scanf("%.2f", &area);
+    printf("entre com o pib:\n");
+    scanf("%.2f", &pib);
+    printf("entre com turistico:\n ");
+    scanf("%.2f", &turistico);
 
     printf("O estado é: %s\n", estado);
     printf("O codigo é: %s\n", codigo);
