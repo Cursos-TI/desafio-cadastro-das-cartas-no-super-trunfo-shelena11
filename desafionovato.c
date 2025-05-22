@@ -16,16 +16,7 @@ int main(){
     float area= 218.843;
     float pib= 33.000000;
     int turistico = 30;
-    float PIB_per_CAPITA = pib / populacao;
-    float densidade_populacional = populacao / area;
-    float divisao;
-
-    //operacao divisao
-    divisao = pib / populacao;
-    
-    //operaçao divisao
-   divisao = populacao / area;
-
+ 
     printf("Entre com o estado:\n");
     scanf("%s", &populacao);
     printf("entre com o codigo:\n");
@@ -48,9 +39,7 @@ int main(){
     printf("A area é: %f\n", area);
     printf("O pib é: %f\n", pib);
     printf("O turistico é: %d\n", turistico);
-    printf("A densidade_populacional é: %f\n" divisao);
-    printf("O PIB_per_CAPITA é: %f\n" divisao);
-
+   Pernambuco
 
     
     //carta 2
