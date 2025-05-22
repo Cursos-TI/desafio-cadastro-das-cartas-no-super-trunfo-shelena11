@@ -49,6 +49,7 @@ int main(){
     printf("O pib é: %f\n", pib);
     printf("O turistico é: %d\n", turistico);
     printf("A densidade_populacional é: %f\n" divisao);
+    printf("O PIB_per_CAPITA é: %f\n" divisao);
 
 
     
