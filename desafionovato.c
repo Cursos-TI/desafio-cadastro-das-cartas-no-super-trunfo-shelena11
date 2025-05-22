@@ -39,7 +39,7 @@ int main(){
     printf("A area é: %f\n", area);
     printf("O pib é: %f\n", pib);
     printf("O turistico é: %d\n", turistico);
-   Pernambuco
+   
 
     
     //carta 2
@@ -59,13 +59,13 @@ int main(){
     printf("entre com a cidade:\n");
     scanf("%s", &codigo);
     printf("entre com a populacao:\n");
-    scanf("%f", &populacao);
+    scanf("%.f", &populacao);
     printf("entre com a area:\n");
-    scanf("%f", &area);
+    scanf("%.f", &area);
     printf("entre com o pib:\n");
-    scanf("%f", &pib);
+    scanf("%.f", &pib);
     printf("entre com turistico:\n ");
-    scanf("%f", &turistico);
+    scanf("%d", &turistico);
 
     printf("O Estado é: %s\n", Estado);
     printf("O Codigo é: %s\n", Codigo);
